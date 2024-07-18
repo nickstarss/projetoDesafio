@@ -1,0 +1,5 @@
+.header{
+    padding: 4.5rem 3.3125rem;
+    background-color: var(--gray-700);
+    display: flex;
+}
