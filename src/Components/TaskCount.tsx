@@ -1,11 +1,11 @@
-import styles from './Tasks.module.css'
+import styles from './TaskCount.module.css'
 
 export interface TaskType {
     id: number,
     content: string;
 }
 
-export default function Tasks(){
+export default function TaskCount(){
     
     return(
         <>

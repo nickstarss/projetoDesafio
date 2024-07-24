@@ -1,8 +1,8 @@
 import './global.css'
 import Header from './Components/Header'
 import NewTask from './Components/NewTask'
-import Tasks from './Components/Tasks'
-import { TaskType } from './Components/Tasks'
+import TaskCount from './Components/TaskCount'
+import { TaskType } from './Components/TaskCount'
 import Task from './Components/Task'
 
 function App() {
@@ -22,11 +22,12 @@ function App() {
     <>
       <Header/>
       <NewTask/>
-      <Tasks/>
+      <TaskCount/>
       {tasks.map(task => {
         return(
           <Task
             key={task.id}
+            id= {task.id}
             content={task.content}
           />
         )
