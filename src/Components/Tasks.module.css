@@ -1,0 +1,52 @@
+.container{
+    margin-top: 4rem;
+    
+    font-weight: bold;
+    font-size: 14px;
+
+    margin-bottom: 5rem;
+    
+}
+
+.subcontainer1{
+    display: flex;
+}
+.subcontainer1 p{
+    color: var(--blue);
+    margin: 0;
+}
+
+.subcontainer1 span{
+    margin-left: 1rem;
+    color: var(--gray-200);
+    background-color: var(--gray-400);
+    border-radius: 999px;
+    padding: 0rem 0.6rem
+}
+
+.subcontainer2{
+    display: flex;
+}
+.subcontainer2 p{
+    color: var(--purple);
+    margin: 0;
+}
+
+.subcontainer2 span{
+    margin-left: 1rem;
+    color: var(--gray-200);
+    background-color: var(--gray-400);
+    border-radius: 999px;
+    padding: 0rem 0.6rem
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+hr{
+    color: var(--gray-300);
+    margin-bottom: 1.5rem;
+}
