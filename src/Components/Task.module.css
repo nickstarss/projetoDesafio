@@ -1,0 +1,61 @@
+.formulario{
+    display: flex;
+    border-radius: 0.5rem;
+    background-color: var(--gray-500);
+    margin-top: 1.3rem;
+    padding: 1rem;
+    align-items: flex-start;
+
+    border: 1px solid var(--gray-400);
+    justify-content: space-between;
+}
+
+.formulario input{
+    margin-right: 1.3rem;
+    width: 1.3em;
+    height: 1.3em;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 2px solid var(--blue);
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    position: relative;
+}
+
+.formulario input:checked {
+    background-color: var(--purple-dark);
+    border: none;
+}
+
+.formulario input:checked:hover{
+    background-color: var;
+}
+
+
+.formulario input:checked::before{
+    content: '✔';
+    color: var(--gray-100);
+    font-size: 0.8em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.formulario input:not(:checked):hover {
+    background-color: var(--blue-dark);
+}
+
+.formulario p{
+    max-width: 39.5rem;
+    color: var(--gray-100);
+    margin: 0px;
+    margin-right: 1.3rem;
+}
+
+.conteudo{
+    width: 100%;
+}
